@@ -4,6 +4,7 @@ import com.scaler.model.player.Level;
 import com.scaler.model.player.Player;
 import com.scaler.model.player.PlayerType;
 import com.scaler.model.player.UserRegistry;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -44,5 +45,12 @@ public class TestTicTacToe {
 
     private boolean areAllCellsExhausted(int totlaMoves, Game g){
         return totlaMoves == g.getBoard().getSize()*g.getBoard().getSize()? true: false;
+    }
+
+    @Test
+    public void testInvalidBoard(){
+        Assertions.assertThrows(IndexOutOfBoundsException.class, () -> {
+            game.start(1, PlayerType.computer, PlayerType.human, Level.easy, 1);
+        });
     }
 }

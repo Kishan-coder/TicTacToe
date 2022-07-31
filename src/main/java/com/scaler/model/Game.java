@@ -25,6 +25,8 @@ public class Game {
         board= new Board();
     }
     public void start(int n, PlayerType p1, PlayerType p2, Level l, int ... userId){
+        if (n < 2)
+            throw new IndexOutOfBoundsException("Size should be at-least 2!");
         board.init(n);
         initPlayers(p1, p2, l, userId);
     }

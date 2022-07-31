@@ -1,10 +1,11 @@
-9Player 1 is o while Player 2 is x and game starts with x
-Player x makes move:1 1
-Player o makes move:0 0
-Player x makes move:0 1
+9Player 1 is x while Player 2 is o and game starts with x
+Player x makes move:0 0
 Player o makes move:0 2
-Player x makes move:2 2
+Player x makes move:0 1
 Player o makes move:1 0
+Player x makes move:1 1
+Player o makes move:2 1
 Player x makes move:1 2
 Player o makes move:2 0
-!Congrats!! Player o won the game
+Player x makes move:2 2
+!Congrats!! Player x won the game
