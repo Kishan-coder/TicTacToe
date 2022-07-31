@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestTicTacToe" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-31T09:01:08" hostname="OF060DR59ZMD6NR" time="0.021">
+  <properties/>
+  <testcase name="testGameOfBotVsMan()" classname="TestTicTacToe" time="0.021"/>
+  <system-out><![CDATA[Player 1 is o while Player 2 is x and game starts with x
+Player x makes move:1 1
+Player o makes move:0 0
+Player x makes move:0 1
+Player o makes move:0 2
+Player x makes move:2 2
+Player o makes move:1 0
+Player x makes move:1 2
+Player o makes move:2 0
+Congrats!! Player o won the game
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
